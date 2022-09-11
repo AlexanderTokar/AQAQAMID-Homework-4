@@ -34,7 +34,7 @@ public class CardDeliveryTest {
         $("[data-test-id='city'] input").setValue("Москва");
         $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.DELETE);
         $("[data-test-id=date] input").setValue(deliveryDate);
-        $("[data-test-id='name'] input").setValue("Джон Голт1");
+        $("[data-test-id='name'] input").setValue("Джон Голт");
         $("[data-test-id='phone'] input").setValue("+79109109191");
         $("[data-test-id='agreement']").click();
         $x("//*[contains(text(),'Забронировать')]").click();
